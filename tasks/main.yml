@@ -1,0 +1,22 @@
+---
+- name: Include OS Specific vars
+  include_vars: "{{ ansible_distribution }}.yml"
+
+- name: Install firefox
+  become: true
+  package:
+    name: "{{ firefox_package_name }}"
+    state: present
+
+- name: Install firefox language german, if package available
+  become: true
+  package:
+    name: "{{ firefox_language }}"
+    state: present
+
+- name: Install firefox plugins, if package available
+  become: true
+  package:
+    name: "{{ firefox_plugins }}"
+    state: present
+
