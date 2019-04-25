@@ -10,3 +10,9 @@ firefox_plugins: []
   
 firefox_language: []
 #  - firefox-i18n-de
+
+password_manager_packages:
+#  - browserpass-firefox
+  - pass
+  - qtpass
+  - pass-otp

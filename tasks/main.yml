@@ -20,3 +20,9 @@
     name: "{{ firefox_plugins }}"
     state: present
 
+- name: Install Password manager, if whished
+  become: true
+  package:
+    name: "{{ password_manager_packages }}"
+    state: present
+  when: install_pass_as_password_manager

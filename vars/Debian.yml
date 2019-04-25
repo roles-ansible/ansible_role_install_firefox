@@ -10,3 +10,9 @@ firefox_plugins: []
   
 firefox_language: 
   - firefox-esr-l10n-de
+
+password_manager_packages:
+#  - browserpass-firefox
+  - pass
+  - qtpass
+  - pass-otp

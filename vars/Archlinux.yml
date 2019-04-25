@@ -3,10 +3,15 @@ firefox_package_name:
   - firefox
 
 firefox_plugins:
-  - browserpass-firefox
   - firefox-ublock-origin
   - firefox-umatrix
   - firefox-extension-https-everywhere
   
 firefox_language:
   - firefox-i18n-de
+
+password_manager_packages:
+  - browserpass-firefox
+  - pass
+  - qtpass
+  - pass-otp

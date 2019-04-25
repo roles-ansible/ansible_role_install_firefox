@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: L3D
-  description: Install firefox with some plugins and language packs
+  description: Install firefox with some plugins and language packs (if available). And if you want, it will install the password manager pass.
   license: license (MIT)
   min_ansible_version: 2.2
   github_branch: master
@@ -28,4 +28,6 @@ galaxy_info:
     - firefoxplugins
     - arch
     - desktop
+    - pass
+    - language
 dependencies: []
