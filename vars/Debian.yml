@@ -8,5 +8,5 @@ firefox_plugins: []
 #  - firefox-umatrix
 #  - firefox-extension-https-everywhere
   
-firefox_language: []
-#  - firefox-i18n-de
+firefox_language: 
+  - firefox-esr-l10n-de

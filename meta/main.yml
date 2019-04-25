@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  author: L3D
+  description: Install firefox with some plugins and language packs
+  license: license (MIT)
+  min_ansible_version: 2.2
+  github_branch: master
+  platforms:
+    - name: Archlinux
+      versions: all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: RedHat
+      versions:
+        - all
+    - name: CentOS
+      versions:
+        - all
+  galaxy_tags:
+    - firefox
+    - firefoxplugins
+    - arch
+    - desktop
+dependencies: []
