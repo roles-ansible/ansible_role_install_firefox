@@ -17,10 +17,10 @@ galaxy_info:
     - name: Fedora
       versions:
         - all
-    - name: RedHat
+    - name: Redhat
       versions:
         - all
-    - name: CentOS
+    - name: Centos
       versions:
         - all
   galaxy_tags:
