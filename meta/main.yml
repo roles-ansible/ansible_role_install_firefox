@@ -17,12 +17,9 @@ galaxy_info:
     - name: Fedora
       versions:
         - all
-    - name: Redhat
+    - name: EL
       versions:
-        - all
-    - name: Centos
-      versions:
-        - all
+        - 7
   galaxy_tags:
     - firefox
     - firefoxplugins
