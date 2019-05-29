@@ -1,30 +1,27 @@
 ---
 galaxy_info:
   author: L3D
-  description: Install firefox with some plugins and language packs (if available). And if you want, it will install the password manager pass.
-  license: license (MIT)
-  min_ansible_version: 2.2
+  description: Manage your SSH Server - and deploy a good sshd configuration
+  license: "MIT"
+  min_ansible_version: 2.3
   github_branch: master
   platforms:
     - name: Archlinux
       versions: all
     - name: Debian
       versions:
-        - all
+        - stretch
+        - sid
     - name: Ubuntu
       versions:
-        - all
+        - bionic
+        - cosmic
     - name: Fedora
       versions:
-        - all
-    - name: EL
-      versions:
-        - 7
+        - 28
+        - 29
   galaxy_tags:
-    - firefox
-    - firefoxplugins
-    - arch
-    - desktop
-    - pass
-    - language
+    - ssh
+    - sshd
+    - authorisation
 dependencies: []
