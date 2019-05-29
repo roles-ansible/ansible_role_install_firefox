@@ -1,3 +1,5 @@
 ---
 # Do we want a password manager installed?
 install_pass_as_password_manager: false
+# version check for this role?
+submodules_versioncheck: true
