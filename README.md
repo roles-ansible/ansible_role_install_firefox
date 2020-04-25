@@ -8,9 +8,15 @@ If you set the variable ``install_pass_as_password_manager`` to true, it will al
  Tested on:
 ----------
 
-This role is used and tested on Archlinux. 
+This role is used and tested on Archlinux.
 That is the reason, why there are there the most plugins configured.
 
  Participate
 --------------
 Please, if you know a few plugins on any os that should be included in this role, simply open an issue or even better a Pull Request!
+
+ Set as default
+------------------
+```
+xdg-settings set default-web-browser firefox.desktop
+```
