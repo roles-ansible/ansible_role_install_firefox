@@ -3,8 +3,9 @@ name: Galaxy release
 
 on:
   push:
-    branches:
-      - 'main'
+    branches: ['main']
+  release:
+    types: ['created']
 
 jobs:
   build:
