@@ -1,27 +1,21 @@
 ---
 galaxy_info:
-  author: L3D
-  description: Manage your SSH Server - and deploy a good sshd configuration
+  role_name: install_firefox
+  author: do1jlr
+  description: Ansible role to install firefox. And some plugins if they are available via package manager
   license: "MIT"
-  min_ansible_version: 2.3
+  min_ansible_version: 2.8
   github_branch: master
   platforms:
     - name: Archlinux
       versions: all
     - name: Debian
-      versions:
-        - stretch
-        - sid
+      versions: all
     - name: Ubuntu
-      versions:
-        - bionic
-        - cosmic
+      versions: all
     - name: Fedora
-      versions:
-        - 28
-        - 29
+      versions: all
   galaxy_tags:
-    - ssh
-    - sshd
-    - authorisation
+    - browser
+    - firefox
 dependencies: []
