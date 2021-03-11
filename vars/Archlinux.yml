@@ -4,7 +4,6 @@ firefox_package_name:
 
 firefox_plugins:
   - firefox-ublock-origin
-  - firefox-umatrix
   - firefox-extension-https-everywhere
 
 firefox_language:
@@ -15,3 +14,4 @@ password_manager_packages:
   - pass
   - qtpass
   - pass-otp
+  - gopass

@@ -16,3 +16,4 @@ password_manager_packages:
   - pass
   - qtpass
   - pass-otp
+  - gopass
