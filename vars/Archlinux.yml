@@ -6,7 +6,7 @@ firefox_plugins:
   - firefox-ublock-origin
   - firefox-umatrix
   - firefox-extension-https-everywhere
-  
+
 firefox_language:
   - firefox-i18n-de
 
