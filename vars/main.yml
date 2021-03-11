@@ -4,7 +4,7 @@ playbook_version_path: 'role-firefox-installation_simple_chaos-bodensee_github.c
 
 firefox_params:
   files:
-    "{{ ansible_distribution }}.yml"
-    'fallback.yml'
+    - "{{ ansible_distribution }}.yml"
+    - 'fallback.yml'
   paths:
     - 'vars'
