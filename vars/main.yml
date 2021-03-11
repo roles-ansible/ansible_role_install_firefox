@@ -1,5 +1,5 @@
 ---
-playbook_version_number: 9004  # should be int
+playbook_version_number: 9005  # should be int
 playbook_version_path: 'role-firefox-installation_simple_chaos-bodensee_github.com.version'
 
 firefox_params:
