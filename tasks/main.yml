@@ -4,7 +4,7 @@
   when: submodules_versioncheck|bool
 
 - name: Include OS Specific vars
-  ansible.builtin.include_vars: "{{ ansible_distribution }}.yml"
+  ansible.builtin.include_vars: "{{ lookup('first_found', firefox_params) }}"
 
 - name: Install firefox
   become: true
