@@ -6,6 +6,11 @@
 - name: Include OS Specific vars
   ansible.builtin.include_vars: "{{ lookup('first_found', firefox_params) }}"
 
+- name: Role no longer maintained
+  ansible.builtin.fail:
+    msg: This role is no longer maintained
+  when: firefox_skip_deprecation_message | default(true) | bool
+
 - name: Install firefox
   become: true
   ansible.builtin.package:
